@@ -1,25 +1,93 @@
 # DSA in Java
 
-A collection of Data Structures and Algorithms (DSA) examples implemented in Java.
+A collection of practical Data Structures and Algorithms examples implemented in Java, focused on problem-solving patterns and technical interview preparation.
 
-This repository contains small, focused examples used for learning, interview
-preparation, and practicing common problem-solving patterns.
+The examples are intentionally small, runnable, and focused on understanding the underlying approach rather than providing unrelated solutions.
 
-## Topics
+## Topics Covered
 
-| Example | Concept |
+### Arrays & Searching
+
+| Example | Pattern / Concept |
 |---|---|
-| `BFS` | Breadth-First Search |
-| `DepthFirstSearch` | Depth-First Search |
 | `BinarySearch` | Binary Search |
-| `HashMapExample` | HashMap and frequency counting |
-| `HashSetExample` | HashSet and duplicate removal |
-| `PriorityQueueExample` | Priority Queue / min-heap |
-| `QueueExample` | Queue / FIFO |
-| `StackExample` | Stack / LIFO |
+| `RotatedArraySearch` | Binary Search on Rotated Array |
+| `SearchInSortedMatrix` | Matrix Search |
+| `ProductOfArrayExceptSelf` | Prefix / Suffix |
+| `MaximumSubarray` | Kadane's Algorithm |
+
+### Hashing & Collections
+
+| Example | Pattern / Concept |
+|---|---|
+| `HashMapExample` | HashMap |
+| `HashSetExample` | HashSet |
+| `TopKElements` | HashMap + Heap |
+| `KthLargestElement` | Priority Queue / Heap |
+| `StreamsAndCollectionsExample` | Java Streams & Collections |
+
+### Two Pointers & Sliding Window
+
+| Example | Pattern / Concept |
+|---|---|
+| `TwoPointers` | Two Pointer Technique |
 | `SlidingWindow` | Sliding Window |
-| `TwoPointers` | Two Pointers |
-| `TreeTraversal` | Binary Tree / Inorder Traversal |
+| `LongestSubstringWithoutRepeating` | Variable-Size Sliding Window |
+
+### Stack & Queue
+
+| Example | Pattern / Concept |
+|---|---|
+| `StackExample` | Stack |
+| `QueueExample` | Queue |
+| `ValidParentheses` | Stack |
+| `MinStack` | Stack with O(1) Minimum |
+| `ProducerConsumerExample` | Blocking Queue / Concurrency |
+
+### Linked Lists
+
+| Example | Pattern / Concept |
+|---|---|
+| `ReverseLinkedList` | Linked List Reversal |
+| `DetectCycleInLinkedList` | Fast / Slow Pointers |
+| `LRUCache` | HashMap + Doubly Linked List |
+
+### Trees
+
+| Example | Pattern / Concept |
+|---|---|
+| `TreeTraversal` | DFS Tree Traversal |
+| `BinaryTreeLevelOrderTraversal` | BFS / Level Order |
+
+### Graphs
+
+| Example | Pattern / Concept |
+|---|---|
+| `DepthFirstSearch` | DFS |
+| `BFS` | BFS |
+| `NumberOfIslands` | Grid DFS |
+| `GraphCycleDetection` | DFS Cycle Detection |
+
+### Intervals
+
+| Example | Pattern / Concept |
+|---|---|
+| `MergeIntervals` | Merge Overlapping Intervals |
+| `MeetingRooms` | Interval Conflict Detection |
+
+### Backtracking
+
+| Example | Pattern / Concept |
+|---|---|
+| `CombinationSum` | Backtracking |
+
+### Priority Queue / Heap
+
+| Example | Pattern / Concept |
+|---|---|
+| `PriorityQueueExample` | Priority Queue |
+| `TopKElements` | Top K Pattern |
+| `KthLargestElement` | Kth Largest / Heap |
 
 ## Project Structure
 
@@ -33,32 +101,57 @@ dsa-java/
             └── dsa/
                 ├── BFS.java
                 ├── BinarySearch.java
+                ├── BinaryTreeLevelOrderTraversal.java
+                ├── CombinationSum.java
                 ├── DepthFirstSearch.java
+                ├── DetectCycleInLinkedList.java
+                ├── GraphCycleDetection.java
                 ├── HashMapExample.java
                 ├── HashSetExample.java
+                ├── KthLargestElement.java
+                ├── LongestSubstringWithoutRepeating.java
+                ├── LRUCache.java
+                ├── MaximumSubarray.java
+                ├── MeetingRooms.java
+                ├── MergeIntervals.java
+                ├── MinStack.java
+                ├── NumberOfIslands.java
                 ├── PriorityQueueExample.java
+                ├── ProducerConsumerExample.java
+                ├── ProductOfArrayExceptSelf.java
                 ├── QueueExample.java
+                ├── ReverseLinkedList.java
+                ├── RotatedArraySearch.java
+                ├── SearchInSortedMatrix.java
                 ├── SlidingWindow.java
                 ├── StackExample.java
+                ├── StreamsAndCollectionsExample.java
+                ├── TopKElements.java
                 ├── TreeTraversal.java
-                └── TwoPointers.java
+                ├── TwoPointers.java
+                └── ValidParentheses.java
 ```
 
-## Running the Examples
+## Complexity
 
-Each class contains a `main` method and can be run independently from an IDE
-such as Eclipse or IntelliJ IDEA.
+Each example includes comments describing its expected time and space complexity where appropriate.
 
-The examples are intentionally kept small so that the algorithm or data
-structure remains easy to understand.
+The goal is to understand:
 
-## Notes
-
-- The source uses the standard Java package name `dsa`.
-- Complexity notes are included in the class-level Javadocs where applicable.
-- More DSA examples will be added as practice continues.
+- Time and space complexity
+- Common interview patterns
+- Appropriate data structure selection
+- Trade-offs between different approaches
+- Clean and readable Java implementations
 
 ## Purpose
 
-This is a public learning and portfolio repository demonstrating hands-on
-Java problem-solving and DSA practice.
+This repository is part of my ongoing Java and backend interview preparation.
+
+It focuses on practical implementations of commonly encountered Data Structures and Algorithms patterns.
+
+More examples may be added over time as new concepts are practiced.
+
+## Java Version
+
+**Java 21**
